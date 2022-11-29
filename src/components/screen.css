@@ -1,0 +1,40 @@
+.screen {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    background-color: #4357692d;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .calculation{
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px;
+    padding-top: 15px;
+    width: 100%;
+    font-size: 36px;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.result{
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  font-size: 28px;
+  font-weight: 200;
+}

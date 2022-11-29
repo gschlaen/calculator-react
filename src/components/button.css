@@ -1,0 +1,40 @@
+button {
+    border: none;
+    background-color: rgb(80, 60, 209);
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: rgb(61, 43, 184);
+  }
+  
+  .equals {
+    grid-row: 5 / 7;
+    grid-column: 6 / 7;
+    background-color: rgb(243, 61, 29);
+  }
+  
+  .equals:hover {
+    background-color: rgb(228, 39, 15);
+  }
+
+  .memory {
+    background-color: rgb(157, 170, 207);
+  }
+
+  .memory:hover {
+    background-color: rgb(137, 148, 179);
+  }
+
+  .del {
+    background-color: rgb(153, 102, 212);
+  }
+
+  .del:hover {
+    background-color: rgb(121, 80, 168);
+  }
